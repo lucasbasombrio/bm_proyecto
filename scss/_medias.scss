@@ -1,0 +1,612 @@
+@media (min-width: 576px) { 
+    header {background-color: white;
+
+    h1 {
+        font-size: 20px;
+    }
+}
+    
+ 
+
+    /* NAV */
+nav{
+    background-color: black;
+        
+    .navbar-toggler {background-color: red;}
+
+    .inicio {
+            font-size: 15px;
+    }
+
+    ul{
+            background-color: black;
+            margin: 3px;
+    }
+
+    li a{
+         font-size: 15px;
+         text-decoration: none;
+         color:white;
+    }
+
+    .activo {
+         background-color:red;
+         font-weight: 500;
+     }
+
+}
+/* FIN NAV */
+
+
+
+.row { row-gap: 15px;
+    column-gap: 1px;
+}
+
+
+
+/* FORM */
+
+
+.form { font-size: 11px;
+    margin: 3px;
+}
+    
+.check {
+        display: flex;
+}
+    
+.checkBox {
+        width: 10px;
+}
+    
+    
+.air{
+    margin: 0px;
+}
+
+.contacto{
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: black;
+
+}
+
+.accordion-item {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.accordion-button {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 15px;
+    color:white;
+    text-align: left;
+    background-color:black;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+        /* FIN FORM */
+}
+
+
+@media (min-width: 768px) { 
+    p{
+        font-size: 16px;
+    }
+
+    header {
+        background-color: white;
+    
+        h1{ 
+            font-size: 25px;
+        }
+        p{
+            font-size: 16px;
+        }
+        .logo{
+            width: 150px;
+        }
+
+    }
+      /* Encabezado */
+
+#encabezado {
+    display: grid; 
+    grid-template-areas:
+    "logobm h1 ."
+    "logobm p .";
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: 45px 40px;
+
+}
+
+
+.h1{
+    display: grid;
+    grid-area: h1;
+    align-content: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+.p {
+    grid-area: p;
+    justify-self: center;
+    align-self: flex-start;
+    margin: 0px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+  /* FIN Encabezado */
+
+
+    /* NAV */
+nav{
+    background-color: black;
+    
+    .navbar-toggler {background-color: red;}
+
+    .inicio {
+        font-size: 20px;
+    }
+
+    ul{
+        background-color: black;
+        margin: 3px;
+    }
+
+    li a{
+        font-size: 18px;
+        text-decoration: none;
+        color:white;
+    }
+
+    .activo {
+        background-color:red;
+        font-weight: 500;
+    }
+
+}
+
+
+
+/* FIN NAV */
+
+    h2 {
+    font-size: 20px;
+    color: red;
+    font-weight: 500;
+    text-decoration: underline;
+    }
+
+    .mauroImg {
+        width: 450px;
+    }
+
+    .serviciosImg {
+    width: 500px;
+    }
+
+    .row { row-gap: 15px;
+        column-gap: 1px;
+    }
+
+    /* FORM */
+
+
+
+
+    .form { font-size: 18px;
+    margin: 10px;}
+
+    .check {
+    display: flex;
+    }
+
+    .checkBox {
+    width: 18px;
+    }
+
+    .accordion-button {
+
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 1.25rem;
+        font-size: 20px;
+        color: white;
+        text-align: left;
+        background-color: black;
+        border: 0;
+        border-radius: 0;
+        overflow-anchor: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    }
+
+    /* FIN FORM */
+ }
+
+@media (min-width: 992px) {
+    p { font-size: 20px;}
+
+    header{
+    background-color: white;
+  
+        .logo{
+            width: 210px;
+        }
+
+        h1{
+            font-size: 40px;
+        }
+
+        p { font-size: 20px;
+    
+        }
+    }
+          /* Encabezado */
+
+#encabezado {
+    display: grid; 
+    grid-template-areas:
+    "logobm h1 ."
+    "logobm p .";
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 80px 45px;
+
+}
+
+
+.h1{
+    display: grid;
+    grid-area: h1;
+    align-content: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+.p {
+    grid-area: p;
+    justify-self: center;
+    align-self: flex-start;
+    margin: 0px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+  /* FIN Encabezado */
+
+    /* NAV */
+    nav{
+        background-color: black;
+        
+
+            .navMid { justify-content: center;
+
+            }
+        
+            .inicio {
+            font-size: 22px;
+            }
+            
+        
+            ul{
+            background-color: black;
+            margin: 8px;
+            }
+        
+            li a{
+            font-size: 22px;
+            text-decoration: none;
+            color: white;
+            margin: 10px;
+            }
+
+            li a:hover {
+                color: red;
+            }
+        
+            .activo {
+            background-color: red;
+            margin: 3px;
+            font-weight: 400;
+            }
+    }
+        .navbar-light .navbar-brand {
+            color: white;
+        }
+    /* FIN NAV */
+
+    h2{
+        font-size: 30px;
+        word-spacing: 5px;
+    }
+
+
+
+    .mauroImg {
+        width: 550px;
+        margin-bottom: 20px;
+
+    }
+
+    .serviciosImg {
+        width: 730px;
+        margin-bottom: 20px;
+
+    }
+
+    .transicion:hover {
+        transition: height 0s, width 0s;
+        width: 570px;
+       }
+       
+    .transicionUno:hover {
+        width: 750px;
+    }
+
+    .row { row-gap: 15px;
+        column-gap: 1px;
+    }
+    /* FORM */
+
+
+    .air {
+        margin-top: 150px;
+    }
+
+
+    .accordion-button:not(.collapsed) {
+        color: white;
+        background-color: black;
+    }
+
+    .accordion-item {
+        background-color:white;
+        border: 1px solid black;
+    }
+    
+
+    .accordion-button {
+
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 1.25rem;
+        font-size: 25px;
+        color: white;
+        text-align: left;
+        background-color:black;
+        border: 0;
+        border-radius: 0;
+        overflow-anchor: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    }
+        
+     .form { font-size: 25px;
+        margin: 18px;
+    }
+        
+    .check {
+        display: flex;
+    }
+        
+    .checkBox {
+        width: 20px;
+    }
+
+    .accordion-body {
+        padding: 1rem 1.25rem;
+        margin: 5px;
+    }
+        
+    /* FIN FORM */
+}
+
+
+@media (min-width: 1200px) {
+
+    p {
+        font-size: 16px;
+    }
+
+header {
+    background-color: white;
+    
+
+    .logo{
+        width: 210px;
+    }
+
+    h1{
+        font-size: 60px;
+    }
+
+    p { font-size: 16px;
+    
+    }
+}
+
+
+
+          /* Encabezado */
+
+#encabezado {
+    display: grid; 
+    grid-template-areas:
+    "logobm h1 ."
+    "logobm p .";
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 80px 45px;
+
+}
+
+
+.h1{
+    display: grid;
+    grid-area: h1;
+    align-content: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+
+.p {
+    grid-area: p;
+    justify-self: center;
+    align-self: flex-start;
+    margin: 0px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+  /* FIN Encabezado */
+
+    /* NAV */
+      nav{
+        background-color:black;
+        
+
+        .navMid { justify-content: center;
+
+        }
+    
+        .inicio {
+        font-size: 22px;
+        }
+        
+    
+        ul{
+        background-color: black;
+        margin: 8px;
+        }
+    
+        li a{
+        font-size: 23px;
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        }
+
+        li a:hover {
+            color: red;
+        }
+    
+        .activo {
+        background-color:red;
+        margin: 3px;
+        font-weight: 500;
+        }
+
+    }
+    .navbar-light .navbar-brand {
+        color: white;
+    }
+    
+    /* FIN NAV */
+
+    h2{
+        font-size: 30px;
+        word-spacing: 5px;
+    }
+
+    .flex {
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+    }
+
+    .mauroImg {
+        width: 550px;
+        margin-bottom: 0px;
+
+    }
+
+    .serviciosImg {
+        width: 730px;
+        margin-bottom: 20px;
+
+    }
+
+    .transicion:hover {
+        transition: height 0s, width 0s;
+        width: 560px;
+       }
+       
+    .transicionUno:hover {
+        width: 750px;
+    }
+
+    .row { row-gap: 15px;
+        column-gap: 0px;
+    }
+
+    /* FORM */
+
+
+    .air {
+        margin-top: 150px;
+    }
+
+    .contacto {
+        font-size: 25px;
+        color: black;
+    }
+
+    .accordion-button:not(.collapsed) {
+        color: white;
+        background-color: black;
+    }
+
+    .accordion-item {
+        background-color:white;
+        border: 1px solid black;
+    }
+
+    .accordion-button {
+
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 1rem 1.25rem;
+        font-size: 25px;
+        color: white;
+        text-align: left;
+        background-color:black;
+        border: 0;
+        border-radius: 0;
+        overflow-anchor: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+    }
+        
+     .form { font-size: 18px;
+        margin: 8px;
+    }
+        
+    .check {
+        display: flex;
+    }
+        
+    .checkBox {
+        width: 18px;
+    }
+        
+    /* FIN FORM */
+}

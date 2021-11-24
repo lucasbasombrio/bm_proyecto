@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: white;
+
+    p {font-size: 10px;}
+
+
+    .logo {
+        width: 90px;
+    }
+
+    h1 {
+        color: red;
+        font-style: italic; 
+        font-weight: 800;
+        font-family: 'Courgette' , cursive;
+        font-size: 13px;
+        text-align: center;
+        text-transform: none;
+        margin: 3px;
+    }
+    .h1Black{
+        color: black;
+    }
+
+}
+
+
+  /* Encabezado */
+
+#encabezado {
+    display: grid; 
+    grid-template-areas:
+    "logobm h1 ."
+    "logobm p .";
+    grid-template-columns: 80px auto 80px;
+    grid-template-rows: 25px 25px;
+
+
+
+
+    .h1{
+        display: grid;
+        grid-area: h1;
+        align-content: center;
+        justify-content: center;
+        margin: 0px;
+    }
+
+}
+.p {
+    grid-area: p;
+    justify-self: center;
+    align-self: flex-start;
+    margin: 0px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+  /* FIN Encabezado */
+
+
+
+ 
+/* NAV */
+nav{
+    background-color: black;
+
+
+    .inicio {
+        font-size: 15px;
+    }
+
+    ul{
+        background-color: black;
+        margin: 3px;
+    }
+
+    li a{
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .navbar-toggler {background-color: red;}
+
+
+
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+/* FIN NAV */
+
+
+
+h2 {
+    font-size: 11px;
+    color: red;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.mauroImg {
+    margin-bottom: 10px;
+}
+
+.serviciosImg {
+    width: 315px;
+    margin-bottom: 15px;
+}
+
+
+.imgBorder{
+    border: solid 1px red;
+}
+
+
+p {
+    color: black;
+    font-size: 10px;
+
+
+}
+
+
+.bm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgMid {
+    display: flex;
+    justify-content: center;
+}
+
+.pMid {
+    margin: 30px 80px;
+}
+
+
+/* Transiciones de imagenes */
+
+
+.transicion:hover {
+ transition: height 0s, width 0s;
+ width: 820px;
+}
+
+.transicionUno:hover {
+ width: 920px;
+}
+
+.transicionEstucos:hover {
+ transition: heght 0s, widht 0s; 
+width: 73%;
+}
+
+.transicionInteriores:hover {
+    transition: heght 0s, widht 0s; 
+width: 73%;
+}
+
+.transicionMicro:hover {
+    transition: heght 0s, widht 0s; 
+    width: 73%;
+}
+
+.transicionRev:hover {
+    transition: heght 0s, widht 0s; 
+    width: 73%;
+}
+
+/* FIN Transiciones de imagenes */
+
+.row { row-gap: 15px;
+    column-gap: 1px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+/* FORM */
+
+
+.form { font-size: 11px;
+    margin: 3px;
+}
+    
+.check {
+        display: flex;
+}
+    
+.checkBox {
+        width: 10px;
+}
+    
+    
+.air{
+    margin: 0px;
+}
+
+.contacto{
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: black;
+
+}
+
+.accordion-item {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.accordion-button {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem 1.25rem;
+    font-size: 15px;
+    color:white;
+    text-align: left;
+    background-color:black;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,border-radius .15s ease;
+}
+
+/* FIN FORM */
+
+footer {
+    
+    padding: 15px 0px 0px 0px;
+    font-weight: 700;
+    
+}
+
+.footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+.footerGalerias{
+    margin-top: 0px;
+    padding: 0px;
+    }
+
+.degradeFooter{
+    background: linear-gradient(to top, #b20a2c, rgb(212, 152, 152));
+}
+
+.degradeFooterGaleria{
+    background: linear-gradient(to top, #b20a2c, rgb(43, 8, 8));
+}
+
+
+
+
+
+
+
+
+@keyframes aparecer {
+    from { 
+      opacity: 0.1;
+
+    }
+    to {
+      opacity: 1;
+
+    }
+}

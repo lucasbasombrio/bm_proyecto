@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BM, desde 2013, ofrecen en el mercado la aplicación de productos de las marcas más importantes para las terminaciones del hogar y distintos inmuebles. Cuentan con herramientas propias para la realización de sus trabajos.">
+    <meta name="keywords" content="Pintura, Revestimiento, Microcemento, Interiores, Estucos, Servicios, O'Higgins, Junin, Chacabuco">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>BM Revestiminetos y Pintura</title>
+</head>
+
+<body>
+
+
+    <header id="encabezado">
+
+        <div>
+            <a href="index.html"><img src="images/logo.png" alt="Logo" title="BM" class="logo"></a>
+        </div>
+
+        <div class="h1">
+            <h1><span class="h1Black">bm.</span>Revestiminetos y Pintura</h1>
+        </div>
+
+        <div class="p">
+            <p class="p animate__animated animate__bounceInDown">O'Higgins - Junín - Chacabuco</p>
+        </div>
+
+    </header>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand activo inicio" href="index.html">Inicio</a>
+            <button class="navbar-toggler inicio" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navMid" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a aria-current="page" href="pages/quienes_somos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages/estucos.html">Estucos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages/interiores.html">Interiores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="pages/microcemento.html">Microcementos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="pages/revestimientos.html">Revestiminetos</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <section class="flex">
+        <article>
+            <div class="bm">
+                <h2 class>Quienes Somos</h2>
+                <a href="pages/quienes_somos.html"><img class="imgBorder transicion mauroImg" src="images/mauro.png"
+                        alt="Quienes Somos" title="Quienes Somos"></a>
+            </div>
+        </article>
+
+        <article>
+            <div class="bm">
+                <h2>Servicios</h2>
+                <a href="pages/servicios.html"><img class="imgBorder transicionUno serviciosImg" src="images/logo.png"
+                        alt="Servicios" title="Servicios"></a>
+            </div>
+        </article>
+    </section>
+
+
+    <section>
+
+        <!-- Accordion -->
+
+        <div class="accordion air" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button contacto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Contacto
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+
+                        <form>
+                            <div class="air form">
+                                <label for="nombreapellido"></label>
+                                <input type="text" name="nombreapellido" placeholder="Nombre y Apellido">
+                                <label for="mail"></label>
+                                <input type="text" name="email" placeholder="E-mail" />
+                            </div>
+
+                            <div class="air form">
+                                <select name="localidad">
+                                    <option value="starter" hidden>Localidad</option>
+                                    <option value="chacabuco">Chacabuco</option>
+                                    <option value="junin">Junin</option>
+                                    <option value="ohiggins">O'Higgins</option>
+                                </select>
+                            </div>
+
+                            <div class="check">
+
+                                <div class="air form">Acepta recivir notificaciones</div>
+
+                                <div class="air form">
+                                    <input type="checkbox" name="acepta" value="1" class="checkBox" />
+                                </div>
+
+                            </div>
+
+
+                            <label class="form">
+                                <textarea cols="50" placeholder="Comentarios"></textarea>
+                            </label>
+                            <div class="air form">
+                                <button type="reset">Resetear</button>
+                                <input type="submit" name="enviar">
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FIN Accordion -->
+
+    </section>
+
+
+    <footer>
+        <div class="footer degradeFooter">
+            <p>CopyRight @LucasBasombrio</p>
+            <a href="https://www.instagram.com/bm_microcementos/"><img src="images/ig.png" alt="Instagram"
+                    title="Instagram" width="30px"></a>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+
+</html>
