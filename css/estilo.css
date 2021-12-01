@@ -63,10 +63,11 @@ nav {
 
 /* FIN NAV */
 h2 {
-  font-size: 11px;
+  font-size: 15px;
   color: red;
   font-weight: 500;
-  text-decoration: underline; }
+  text-decoration: underline;
+  margin: 2px; }
 
 .mauroImg {
   margin-bottom: 10px; }
@@ -76,7 +77,9 @@ h2 {
   margin-bottom: 15px; }
 
 .imgBorder {
-  border: solid 1px red; }
+  margin: 3px;
+  border: solid 3px red;
+  border-radius: 5%; }
 
 p {
   color: black;
@@ -92,7 +95,7 @@ p {
   justify-content: center; }
 
 .pMid {
-  margin: 30px 80px; }
+  margin: 2% 20%; }
 
 /* Transiciones de imagenes */
 .transicion:hover {
@@ -149,7 +152,7 @@ p {
 
 .accordion-item {
   background-color: white;
-  border: 1px solid black; }
+  border: 1px solid red; }
 
 .accordion-button {
   position: relative;
@@ -168,23 +171,35 @@ p {
 
 /* FIN FORM */
 footer {
+  margin-top: 5px;
   padding: 15px 0px 0px 0px;
-  font-weight: 700; }
+  font-weight: 700;
+  background-color: black;
+  border-top: solid 1px red; }
+  footer p {
+    color: white; }
 
 .footer {
   display: flex;
   align-items: baseline;
   justify-content: space-around; }
 
-.footerGalerias {
-  margin-top: 0px;
-  padding: 0px; }
+.bodyError {
+  font-family: "montserrat",sans-serif; }
 
-.degradeFooter {
-  background: linear-gradient(to top, #b20a2c, #d49898); }
+.error {
+  color: red;
+  font-size: 60px; }
 
-.degradeFooterGaleria {
-  background: linear-gradient(to top, #b20a2c, #2b0808); }
+.contenedor {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  position: absolute;
+  top: 40%;
+  text-align: center; }
 
 @keyframes aparecer {
   from {
@@ -235,7 +250,7 @@ footer {
     background-color: black; }
   .accordion-item {
     background-color: white;
-    border: 1px solid black; }
+    border: 1px solid red; }
   .accordion-button {
     position: relative;
     display: flex;
@@ -417,7 +432,7 @@ footer {
     background-color: black; }
   .accordion-item {
     background-color: white;
-    border: 1px solid black; }
+    border: 1px solid red; }
   .accordion-button {
     position: relative;
     display: flex;
@@ -531,7 +546,7 @@ footer {
     background-color: black; }
   .accordion-item {
     background-color: white;
-    border: 1px solid black; }
+    border: 1px solid red; }
   .accordion-button {
     position: relative;
     display: flex;

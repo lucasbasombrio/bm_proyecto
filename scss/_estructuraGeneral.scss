@@ -101,10 +101,11 @@ nav{
 
 
 h2 {
-    font-size: 11px;
+    font-size: 15px;
     color: red;
     font-weight: 500;
     text-decoration: underline;
+    margin: 2px;
 }
 
 .mauroImg {
@@ -118,7 +119,9 @@ h2 {
 
 
 .imgBorder{
-    border: solid 1px red;
+    margin: 3px;
+    border: solid 3px red;
+    border-radius: 5%;
 }
 
 
@@ -142,7 +145,7 @@ p {
 }
 
 .pMid {
-    margin: 30px 80px;
+    margin: 2% 20%;
 }
 
 
@@ -219,8 +222,9 @@ width: 73%;
 
 .accordion-item {
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid red;
 }
+
 
 .accordion-button {
 
@@ -242,10 +246,13 @@ width: 73%;
 /* FIN FORM */
 
 footer {
-    
+    margin-top: 5px;
     padding: 15px 0px 0px 0px;
     font-weight: 700;
-    
+    background-color: black;
+    border-top: solid 1px red;
+    p {color: white;
+    }
 }
 
 .footer{
@@ -254,20 +261,31 @@ footer {
     justify-content: space-around;
 }
 
-.footerGalerias{
-    margin-top: 0px;
-    padding: 0px;
-    }
 
-.degradeFooter{
-    background: linear-gradient(to top, #b20a2c, rgb(212, 152, 152));
+
+
+
+// 404 errror
+
+.bodyError {
+    font-family: "montserrat",sans-serif;
 }
 
-.degradeFooterGaleria{
-    background: linear-gradient(to top, #b20a2c, rgb(43, 8, 8));
+.error {
+    color: red;
+    font-size: 60px;
 }
 
-
+.contenedor {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
 
 
 
