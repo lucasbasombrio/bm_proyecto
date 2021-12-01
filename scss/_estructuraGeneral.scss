@@ -16,13 +16,11 @@ header{
 
     h1 {
         color: red;
-        font-style: italic; 
-        font-weight: 800;
-        font-family: 'Courgette' , cursive;
+        font-family: "Times New Roman", Times, serif;
         font-size: 13px;
         text-align: center;
         text-transform: none;
-        margin: 3px;
+        margin: 1px;
     }
     .h1Black{
         color: black;
@@ -38,8 +36,8 @@ header{
     grid-template-areas:
     "logobm h1 ."
     "logobm p .";
-    grid-template-columns: 80px auto 80px;
-    grid-template-rows: 25px 25px;
+    grid-template-columns: 75px auto 75px;
+    grid-template-rows: 30px 25px;
 
 
 
@@ -47,7 +45,7 @@ header{
     .h1{
         display: grid;
         grid-area: h1;
-        align-content: center;
+        align-content: end;
         justify-content: center;
         margin: 0px;
     }
@@ -119,7 +117,7 @@ h2 {
 
 
 .imgBorder{
-    margin: 3px;
+    margin: 15px;
     border: solid 3px red;
     border-radius: 5%;
 }
@@ -190,6 +188,13 @@ width: 73%;
     margin-bottom: 50px;
 }
 
+// Galerias
+.row-cols-2>* {
+    flex: 0 0 auto;
+    width: 80%;
+}
+
+
 /* FORM */
 
 
@@ -246,7 +251,6 @@ width: 73%;
 /* FIN FORM */
 
 footer {
-    margin-top: 5px;
     padding: 15px 0px 0px 0px;
     font-weight: 700;
     background-color: black;

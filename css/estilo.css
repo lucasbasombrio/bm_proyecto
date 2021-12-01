@@ -11,13 +11,11 @@ header {
     width: 90px; }
   header h1 {
     color: red;
-    font-style: italic;
-    font-weight: 800;
-    font-family: 'Courgette' , cursive;
+    font-family: "Times New Roman", Times, serif;
     font-size: 13px;
     text-align: center;
     text-transform: none;
-    margin: 3px; }
+    margin: 1px; }
   header .h1Black {
     color: black; }
 
@@ -25,12 +23,12 @@ header {
 #encabezado {
   display: grid;
   grid-template-areas: "logobm h1 ." "logobm p .";
-  grid-template-columns: 80px auto 80px;
-  grid-template-rows: 25px 25px; }
+  grid-template-columns: 75px auto 75px;
+  grid-template-rows: 30px 25px; }
   #encabezado .h1 {
     display: grid;
     grid-area: h1;
-    align-content: center;
+    align-content: end;
     justify-content: center;
     margin: 0px; }
 
@@ -77,7 +75,7 @@ h2 {
   margin-bottom: 15px; }
 
 .imgBorder {
-  margin: 3px;
+  margin: 15px;
   border: solid 3px red;
   border-radius: 5%; }
 
@@ -129,6 +127,10 @@ p {
   justify-content: space-evenly;
   margin-bottom: 50px; }
 
+.row-cols-2 > * {
+  flex: 0 0 auto;
+  width: 80%; }
+
 /* FORM */
 .form {
   font-size: 11px;
@@ -171,7 +173,6 @@ p {
 
 /* FIN FORM */
 footer {
-  margin-top: 5px;
   padding: 15px 0px 0px 0px;
   font-weight: 700;
   background-color: black;
@@ -360,7 +361,7 @@ footer {
     header .logo {
       width: 210px; }
     header h1 {
-      font-size: 40px; }
+      font-size: 37px; }
     header p {
       font-size: 20px; }
   /* Encabezado */
@@ -467,7 +468,7 @@ footer {
     header .logo {
       width: 210px; }
     header h1 {
-      font-size: 60px; }
+      font-size: 55px; }
     header p {
       font-size: 16px; }
   /* Encabezado */
@@ -506,7 +507,7 @@ footer {
       color: white;
       margin: 10px; }
     nav li a:hover {
-      color: red; }
+      color: lightgray; }
     nav .activo {
       background-color: red;
       margin: 3px;
@@ -535,6 +536,9 @@ footer {
   .row {
     row-gap: 15px;
     column-gap: 0px; }
+  .row-cols-2 > * {
+    flex: 0 0 auto;
+    width: 50%; }
   /* FORM */
   .air {
     margin-top: 150px; }

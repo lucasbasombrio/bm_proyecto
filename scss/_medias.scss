@@ -251,7 +251,7 @@ nav{
         }
 
         h1{
-            font-size: 40px;
+            font-size: 37px;
         }
 
         p { font-size: 20px;
@@ -435,7 +435,7 @@ header {
     }
 
     h1{
-        font-size: 60px;
+        font-size: 55px;
     }
 
     p { font-size: 16px;
@@ -505,7 +505,7 @@ header {
         }
 
         li a:hover {
-            color: red;
+            color: lightgray;
         }
     
         .activo {
@@ -555,6 +555,11 @@ header {
 
     .row { row-gap: 15px;
         column-gap: 0px;
+    }
+
+    .row-cols-2>* {
+        flex: 0 0 auto;
+        width: 50%;
     }
 
     /* FORM */
