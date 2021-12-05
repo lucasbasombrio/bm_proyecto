@@ -106,6 +106,10 @@ h2 {
     margin: 2px;
 }
 
+img {
+    box-shadow: 0 0 15px black;
+}
+
 .mauroImg {
     margin-bottom: 10px;
 }
@@ -212,6 +216,16 @@ width: 73%;
     color: white;
 }
 
+.accordion-item:last-of-type {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.accordion-item:first-of-type {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
 .accordion-button:not(.collapsed) {
     color: white;
     background-color: black;
@@ -220,7 +234,7 @@ width: 73%;
 
 .accordion-item {
     background-color: white;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 
@@ -244,6 +258,7 @@ width: 73%;
 /* FIN FORM */
 
 footer {
+    margin-top: 5px;
     padding: 15px 0px 0px 0px;
     font-weight: 700;
     background-color: black;
