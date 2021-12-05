@@ -281,7 +281,8 @@ footer {
     header p {
       font-size: 16px; }
     header .logo {
-      width: 150px; }
+      width: 150px;
+      box-shadow: 0 0 15px white; }
   /* Encabezado */
   #encabezado {
     display: grid;
@@ -362,7 +363,8 @@ footer {
   header {
     background-color: white; }
     header .logo {
-      width: 210px; }
+      width: 210px;
+      box-shadow: 0 0 15px white; }
     header h1 {
       font-size: 37px; }
     header p {
@@ -466,7 +468,8 @@ footer {
   header {
     background-color: white; }
     header .logo {
-      width: 210px; }
+      width: 210px;
+      box-shadow: 0 0 15px white; }
     header h1 {
       font-size: 55px; }
     header p {
