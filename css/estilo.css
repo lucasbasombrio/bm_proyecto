@@ -96,13 +96,6 @@ p {
   margin: 2% 20%; }
 
 /* Transiciones de imagenes */
-.transicion:hover {
-  transition: height 0s, width 0s;
-  width: 820px; }
-
-.transicionUno:hover {
-  width: 920px; }
-
 .transicionEstucos:hover {
   transition: heght 0s, widht 0s;
   width: 73%; }
